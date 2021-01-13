@@ -5,13 +5,13 @@ We use data dumps from OpenFDA to scrape all drugs containing an Opioid and then
 
 
 ## Data Sources
-- [OpenFDA - US Food and Drug Administration Public Data]()
-- [MME Conversion Rates - Centers for Disease Control]()
+- [OpenFDA - US Food and Drug Administration Public Data](https://open.fda.gov/)
+- [MME Conversion Rates - Centers for Disease Control](https://www.cdc.gov/drugoverdose/pdf/calculating_total_daily_dose-a.pdf)
 
 ## Dependencies
 - Python >= 3.6
 
 ## Execution
-1. Download Drug Label dumps from [OpenFDA - [/drug/label]](https://open.fda.gov/downloads/#Human%20Drug%20Label) into the `./raw_data` directory
+1. Download Drug Label dumps from [OpenFDA - [/drug/label]](https://open.fda.gov/data/downloads/#Human%20Drug%20Label) into the `./raw_data` directory
 2. Execute `MME_Scraper.py`
 3. Review parsed data and skipped drugs in `./py_exports` directory
