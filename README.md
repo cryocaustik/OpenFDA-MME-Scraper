@@ -6,7 +6,7 @@ We use data dumps from OpenFDA to scrape all drugs containing an Opioid and then
 
 ## Data Sources
 - [OpenFDA - US Food and Drug Administration Public Data](https://open.fda.gov/)
-- [MME Conversion Rates - Centers for Disease Control](https://www.cdc.gov/drugoverdose/pdf/calculating_total_daily_dose-a.pdf)
+- [MME Conversion Rates - Centers for Disease Control](https://www.cdc.gov/opioids/providers/prescribing/pdf/calculating-total-daily-dose.pdf)
 
 ## Dependencies
 - Python >= 3.6
